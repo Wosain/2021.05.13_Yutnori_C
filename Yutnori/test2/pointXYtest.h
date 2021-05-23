@@ -4,5 +4,3 @@ class pointXYtest :
 	public CDialogEx
 {
 };
-23r2efwe
-ssdddd
