@@ -45,7 +45,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -192,6 +192,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CBoardDlg.h" />
     <ClInclude Include="CClientSocket.h" />
     <ClInclude Include="CNaverOAuthDlg.h" />
     <ClInclude Include="CYutnoriStart.h" />
@@ -203,6 +204,7 @@
     <ClInclude Include="Yutnori_CDlg.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CBoardDlg.cpp" />
     <ClCompile Include="CClientSocket.cpp" />
     <ClCompile Include="CNaverOAuthDlg.cpp" />
     <ClCompile Include="CYutnoriStart.cpp" />
@@ -225,6 +227,15 @@
     <None Include="res\YutnoriC.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\..\..\..\Yutnori_C.ico" />
+    <Image Include="..\..\..\..\..\..\desktop\윷놀이 프로젝트\윷놀이이미지\bmp\bitmap6.bmp" />
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-1.bmp" />
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-2.bmp" />
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-3.bmp" />
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-4.bmp" />
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-5.bmp" />
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\FINAL-4.png.png" />
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\판.bmp" />
     <Image Include="..\..\..\..\test.bmp" />
     <Image Include="..\..\..\..\윷놀이.jpg" />
     <Image Include="res\bitmap1.bmp" />

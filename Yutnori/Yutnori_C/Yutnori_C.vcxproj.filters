@@ -42,6 +42,9 @@
     <ClInclude Include="CNaverOAuthDlg.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="CBoardDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Yutnori_C.cpp">
@@ -60,6 +63,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="CNaverOAuthDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoardDlg.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -91,6 +97,33 @@
       <Filter>리소스 파일</Filter>
     </Image>
     <Image Include="res\test.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\판.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\..\..\Yutnori_C.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\FINAL-4.png.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\desktop\윷놀이 프로젝트\윷놀이이미지\bmp\bitmap6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\윷놀이 프로젝트\윷놀이이미지\bmp\FINAL-1.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>

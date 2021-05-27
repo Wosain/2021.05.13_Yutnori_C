@@ -7,6 +7,7 @@
 #include "afxdialogex.h"
 #include "CNaverOAuthDlg.h"
 #include <atlimage.h>
+#include "CBoardDlg.h"
 
 // CYutnoriStart 대화 상자
 
@@ -63,9 +64,14 @@ void CYutnoriStart::OnClickedButton2()
 	// 랭킹 조회
 }
 
-
+CBoardDlg dlg1;
 void CYutnoriStart::OnBnClickedButton3()
 {
-	AfxMessageBox("준비중입니다.");
+	AfxMessageBox("시작합니다.");
+	
+	dlg1.DoModal();
+
+	CDialogEx::OnOK();
+
 	// 게임 시작
 }
